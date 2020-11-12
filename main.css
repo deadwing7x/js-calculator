@@ -1,0 +1,118 @@
+.calculator-body {
+  border: 1px solid black;
+  height: 480px;
+  width: 500px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+button {
+  cursor: pointer;
+}
+
+.result-screen {
+  height: 100px;
+}
+
+.result-input {
+  width: 485px;
+  height: 90px;
+  margin: 2.5px;
+  font-size: 40px;
+}
+
+input[type="text"] {
+  text-align: right;
+}
+
+.first-row,
+.second-row,
+.third-row,
+.fourth-row,
+.fifth-row {
+  display: flex;
+  margin: 1.75px;
+}
+
+#reset-result {
+  width: 265px;
+  height: 90px;
+  text-align: center;
+  vertical-align: middle;
+  margin: 1.75px;
+}
+
+#reset-button {
+  width: 265px;
+  height: 90px;
+  font-size: 30px;
+}
+
+#modulus {
+  width: 225px;
+  height: 90px;
+  text-align: center;
+  vertical-align: middle;
+  margin: 1.75px;
+}
+
+.modulus-button {
+  width: 225px;
+  height: 90px;
+  font-size: 30px;
+}
+
+.number-button {
+  width: 130px;
+  height: 65px;
+  margin: 1.75px;
+  font-size: 21.75px;
+}
+
+.number-row {
+  width: 130px;
+  height: 65px;
+  margin: 1.75px;
+}
+
+.operator-row {
+  width: 90px;
+  height: 65px;
+  margin: 1.75px;
+}
+
+.operator-button {
+  width: 90px;
+  height: 65px;
+  margin: 1.75px;
+  font-size: 25px;
+}
+
+.operator-lastrow {
+  width: 151px;
+  height: 65px;
+  margin: 1.75px;
+}
+
+.operator-lastbutton, .operator-equals {
+  width: 151px;
+  height: 65px;
+  margin: 1.75px;
+  font-size: 25px;
+}
+
+.number-lastrow {
+  width: 181px;
+  height: 65px;
+  margin: 1.75px;
+}
+
+.number-lastbutton {
+  width: 181px;
+  height: 65px;
+  margin: 1.75px;
+  font-size: 25px;
+}
