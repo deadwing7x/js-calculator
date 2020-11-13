@@ -16,6 +16,11 @@ $(document).ready(function () {
     operator = "";
   });
 
+  $(".result-input").change(() => {
+    finalExpression += $(".result-input").val();
+    evaluateExpression();
+  });
+
   function getNumber() {
     const value = parseInt($(this).val());
     finalExpression += value;
@@ -31,13 +36,14 @@ $(document).ready(function () {
   function evaluateExpression() {
     const result = eval(finalExpression);
     $(".result-input").val(result);
+    finalExpression = "";
   }
 
   function checkInput() {
     let inputExpression = $(".result-input").val();
     if (finalExpression !== inputExpression) {
-        inputExpression += operator;
-        finalExpression = inputExpression;
+      inputExpression += operator;
+      finalExpression = inputExpression;
       $(".result-input").val(inputExpression);
     } else {
       $(".result-input").val(finalExpression);
