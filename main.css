@@ -1,3 +1,7 @@
+body {
+  background-color: #1a1a1a;
+}
+
 .calculator-body {
   border: 1px solid black;
   height: 480px;
@@ -7,6 +11,7 @@
   margin-right: auto;
   margin-top: 5rem;
   margin-bottom: 5rem;
+  background-color: white;
 }
 
 button {
@@ -22,6 +27,7 @@ button {
   height: 90px;
   margin: 2.5px;
   font-size: 40px;
+  background-color: #1a1a1a;
 }
 
 input[type="text"] {
